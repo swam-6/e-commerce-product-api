@@ -32,6 +32,7 @@ public class User implements UserDetails {
     @Column(nullable = false)
     private String password;
 
+
     private String phone;
 
     @Enumerated(EnumType.STRING)
